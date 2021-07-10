@@ -1,9 +1,65 @@
 body {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 .text {
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
     font-weight: 400;
+}
+
+h1 {
+    font-weight: 600;
+    color: rgb(51, 83, 132);
+}
+
+h3 {
+    font-weight: 600;
+    color: rgb(66 165 221);
+}
+
+.sidebar {
+    background-color: #be7680;
+    ;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.mainContent {
+    padding: 20px 30px;
+}
+
+hr {
+    background-color: #be7680;
+    ;
+    width: 291px;
+}
+
+.title-sidebar {
+    padding-top: 3.7em;
+    color: rgb(80 203 255);
+}
+
+.text-sidebar>p {
+    color: rgb(255, 255, 255);
+}
+
+.text-sidebar>ul {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(80 203 255);
+}
+
+.title-content {
+    padding-top: 104px;
+    color: rgb(66 165 221);
 }
