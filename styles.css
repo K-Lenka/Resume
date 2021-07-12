@@ -137,6 +137,21 @@ a:hover {
     animation: mysql 2s;
 }
 
+.webpack {
+    width: 40%;
+    animation: webpack 2s;
+}
+
+.npm {
+    width: 40%;
+    animation: mpm 2s;
+}
+
+.node {
+    width: 40%;
+    animation: mpm 2s;
+}
+
 @keyframes html {
     0% {
         width: 0%;
@@ -206,5 +221,32 @@ a:hover {
     }
     100% {
         width: 60%;
+    }
+}
+
+@keyframes webpack {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes npm {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 40%;
     }
 }
