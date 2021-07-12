@@ -18,6 +18,19 @@ h3 {
     color: rgb(66 165 221);
 }
 
+h6 {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+section h4 {
+    letter-spacing: 4px;
+}
+
+section h3 {
+    letter-spacing: 4px;
+}
+
 .sidebar {
     background-color: #be7680;
     ;
@@ -59,7 +72,10 @@ a:hover {
     color: rgb(80 203 255);
 }
 
+.intro {
+    padding-bottom: 104px;
+}
+
 .title-content {
-    padding-top: 104px;
     color: rgb(66 165 221);
 }
