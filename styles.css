@@ -1,21 +1,14 @@
 body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
-}
-
-.text {
-    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
 h1 {
-    font-weight: 600;
-    color: rgb(51, 83, 132);
+    color: rgb(0, 0, 0);
 }
 
 h3 {
-    font-weight: 600;
-    color: rgb(66 165 221);
+    color: rgb(0, 0, 0);
 }
 
 h6 {
@@ -31,8 +24,13 @@ section h3 {
     letter-spacing: 4px;
 }
 
+.headlines {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
 .sidebar {
-    background-color: #be7680;
+    background-color: #e2e2e2;
     ;
     padding: 20px 30px;
     text-align: center;
@@ -43,37 +41,61 @@ section h3 {
 }
 
 hr {
-    background-color: #be7680;
-    ;
+    background-color: #7e7e7e;
+    margin: 5px 0 10px;
     width: 291px;
 }
 
 .title-sidebar {
-    padding-top: 3.7em;
-    color: rgb(80 203 255);
+    padding-top: 10.7em;
+    color: rgb(66 165 221);
 }
 
 .text-sidebar>p {
-    color: rgb(255, 255, 255);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
 }
 
 .text-sidebar>ul {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     list-style: none;
     padding-left: 5px;
 }
 
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a:hover {
-    color: rgb(80 203 255);
+    color: rgb(66 165 221);
 }
 
 .intro {
-    padding-bottom: 104px;
+    position: relative;
+    padding: 0 93px;
+}
+
+.pos-absolute {
+    position: absolute;
+    top: 24px;
+    left: -78px;
+    display: flex;
+    align-items: center;
+    padding-right: 0;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(149 149 149);
+    padding: 40px 78px;
+}
+
+.experience {
+    text-align: justify;
+}
+
+.profile {
+    padding-top: 257px;
 }
 
 .title-content {
@@ -81,20 +103,20 @@ a:hover {
 }
 
 .bar {
-    background: rgb(51, 83, 132);
+    background: rgb(180 182 186);
     display: block;
     height: 5px;
-    border: 1px solid rgb(51, 83, 132);
+    border: 1px solid rgb(218 233 255);
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgb(80 203 255);
+    box-shadow: 0 0 10px rgb(233 233 233);
     margin: 0px 25px 0px 25px;
 }
 
 .bar span {
     height: 3px;
     float: left;
-    background: rgb(80 203 255);
+    background: rgb(255, 255, 255);
 }
 
 .html {
@@ -248,5 +270,27 @@ a:hover {
     }
     100% {
         width: 40%;
+    }
+}
+
+@media print,
+screen and (max-width: 991px) {
+    .pos-absolute {
+        position: initial;
+        display: flex;
+        align-items: center;
+        padding-right: 0;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px 78px;
+    }
+    .intro {
+        padding: 0;
+    }
+    .profile {
+        padding-top: 60px;
+    }
+    .title-sidebar {
+        padding-top: 1.7em;
     }
 }
