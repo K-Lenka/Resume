@@ -87,6 +87,7 @@ a:hover {
     flex-direction: column;
     background-color: white;
     border: 1px solid rgb(149 149 149);
+    box-shadow: -3px -3px 9px 0px #bebebe;
     padding: 40px 78px;
 }
 
@@ -292,5 +293,8 @@ screen and (max-width: 991px) {
     }
     .title-sidebar {
         padding-top: 1.7em;
+    }
+    .mainContent {
+        padding: 20px 0;
     }
 }
